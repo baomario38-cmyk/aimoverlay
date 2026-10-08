@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AimOverlay</string>
+    <string name="key_title">XÁC THỰC KEY</string>
+    <string name="key_subtitle">Nhập key để kích hoạt AimOverlay</string>
+    <string name="key_hint">Nhập key của bạn</string>
+    <string name="key_button">KÍCH HOẠT</string>
+    <string name="key_error_empty">Vui lòng nhập key</string>
+    <string name="key_error_invalid">Key không hợp lệ</string>
+    <string name="key_error_used">Key đã được dùng trên thiết bị khác</string>
+    <string name="key_success">Kích hoạt thành công</string>
+    <string name="main_title">AIM OVERLAY</string>
+    <string name="btn_start">BẬT OVERLAY</string>
+    <string name="btn_stop">TẮT OVERLAY</string>
+    <string name="btn_permission">CẤP QUYỀN OVERLAY</string>
+    <string name="status_active">ĐÃ KÍCH HOẠT</string>
+</resources>
