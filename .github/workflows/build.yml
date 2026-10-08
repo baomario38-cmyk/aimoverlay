@@ -10,13 +10,12 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v3
+        with:
+          gradle-version: 8.1.0
       - name: Build Debug APK
-        run: |
-          cd $GITHUB_WORKSPACE
-          gradle wrapper --gradle-version 8.1.0
-          ./gradlew assembleDebug
+        run: gradle assembleDebug --stacktrace
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
